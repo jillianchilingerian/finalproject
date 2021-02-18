@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,200;0,500;1,200&display=swap');
 
+@media only screen and (max-width: 700px) {
+    body {
+      background-color: pink;
+    }
+  }
 
 h1{
     font-family: 'Newsreader', serif;;
@@ -8,6 +13,9 @@ h1{
    
 }
 
+body{
+    background-color: thistle;
+}
 h2{
     font-family: 'Newsreader', serif;;
     color: black;
@@ -51,10 +59,3 @@ label{
     margin-top: 20px;
 }
 
-.fab fa-instagram{
-    display: inline-block;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-  }
